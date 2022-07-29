@@ -1,0 +1,81 @@
+:root {
+    --green: #466d50;
+}
+
+#navbarMonstera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px;
+    font-family: 'Allerta', sans-serif;
+}
+
+#navMid {
+    display: flex;
+}
+
+#navMid div {
+    margin: 0 50px;
+    font-size: 18px;
+}
+
+#navMid div h4:hover {
+    padding-bottom: 4px;
+    border: 3px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}
+
+
+#navEnd {
+    display: flex;
+}
+
+#navEnd div {
+    margin: 0 20px;
+}
+
+#midWhole {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Allerta', sans-serif;
+}
+
+#midWholePart1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#midWholePart121 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #466d50;
+    color: #fff;
+    width: 170px;
+    height: 40px;
+    font-size: 13px;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#midWholePart13 {
+    margin-top: 40px;
+}
+
+.midWholePart13Parts {
+    display: inline-block;
+    width: 300px;
+}
+
+#imgMain {
+    height: 600px;
+}
+
+#monstera {
+    font-size: 75px;
+}
